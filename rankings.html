@@ -1,0 +1,1292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2018 VA Medical Center Ratings</title>
+    
+    <!-- Bootstrap CSS framework -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
+    <!-- Icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Bootstrap Table plugin to make table sortable -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.css">
+    <script src="https://unpkg.com/bootstrap-table@1.14.2/dist/bootstrap-table.min.js"></script>
+
+</head>
+<body>
+    
+    <div class="container table-responsive">
+        <a href="index.html" button type="button" class="btn btn-primary btn-sm">Home</a>
+        <h2 class="text-center text-primary"><a href="rankings.html">VA Medical Center Rankings (2018)</a></h2>
+    <br>
+    <p>To sort the list, click the up/down arrows at the top of the column you wish to sort. The default sort is alphabetical order by name of the medical center.</p>
+    
+    <!-- Table -->
+    <table 
+    data-toggle="table" 
+    class="table table-striped table-bordered table-sm" 
+    data-sort-name="Medical_Center_Name" 
+    data-sort-order="asc" 
+    data-pagination="true">
+       
+        <thead class="thead-light text-center">
+            <tr>
+                <th data-field="Medical_Center_Name" data-sortable="true">Medical Center Name</th>
+                <th data-field="City" data-sortable="true">City</th>
+                <th data-field="State" data-sortable="true">State</th>
+                <th data-field="Star_Rating" data-sortable="true">Star Rating</th>
+                <th data-field="Website" data-sortable="false">Website</th>
+            </tr>
+        </thead>
+        
+        <tbody class="text-center">
+           <tr>
+               <td>Albany VA Medical Center: Samuel S. Stratton</td>
+               <td>Albany</td>
+               <td>NY</td>
+               <td>3</td>
+               <td><a href="https://www.albany.va.gov" target="_blank">https://www.albany.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>Raymond G. Murphy VA Medical Center</td>
+               <td>Albuquerque</td>
+               <td>NM</td>
+               <td>2</td>
+               <td><a href="https://www.albuquerque.va.gov" target="_blank">https://www.albuquerque.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Alexandria VA Healthcare System</td>
+               <td>Pineville</td>
+               <td>LA</td>
+               <td>2</td>
+               <td><a href="https://www.alexandria.va.gov" target="_blank">https://www.alexandria.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>James E. Van Zandt VA Medical Center</td>
+               <td>Altoona</td>
+               <td>PA</td>
+               <td>4</td>
+               <td><a href="https://www.altoona.va.gov" target="_blank">https://www.altoona.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Thomas E. Creek VA Medical Center</td>
+               <td>Amarillo</td>
+               <td>TX</td>
+               <td>4</td>
+               <td><a href="https://www.amarillo.va.gov" target="_blank">https://www.amarillo.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Alaska VA Healthcare System</td>
+               <td>Anchorage</td>
+               <td>AK</td>
+               <td>3</td>
+               <td><a href="https://www.alaska.va.gov" target="_blank">https://www.alaska.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Ann Arbor Healthcare System</td>
+               <td>Ann Arbor</td>
+               <td>MI</td>
+               <td>3</td>
+               <td><a href="https://www.annarbor.va.gov" target="_blank">https://www.annarbor.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Atlanta VA Medical Center</td>
+               <td>Decatur</td>
+               <td>GA</td>
+               <td>1</td>
+               <td><a href="https://www.atlanta.va.gov" target="_blank">https://www.atlanta.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Charlie Norwood VA Medical Center</td>
+               <td>Augusta</td>
+               <td>GA</td>
+               <td>2</td>
+               <td><a href="https://www.augusta.va.gov" target="_blank">htps://www.augusta.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Baltimore VA Medical Center</td>
+               <td>Baltimore</td>
+               <td>MD</td>
+               <td>3</td>
+               <td><a href="https://www.maryland.va.gov" target="_blank">https://www.maryland.va.gov</a><br>
+               <a href="https://marylandhealthconnection.gov" target="_blank">https://marylandhealthconnection.gov</a></td>
+           </tr>
+           <tr>
+               <td>Bath VA Medical Center</td>
+               <td>Bath</td>
+               <td>NY</td>
+               <td>5</td>
+               <td><a href="https://www.bath.va.gov" target="_blank">https://www.bath.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>Battle Creek VA Medical Center</td>
+               <td>Battle Creek</td>
+               <td>MI</td>
+               <td>2</td>
+               <td><a href="https://www.battlecreek.va.gov" target="_blank">https://www.battlecreek.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Bay Pines VA Healthcare System</td>
+               <td>Bay Pines</td>
+               <td>FL</td>
+               <td>3</td>
+               <td><a href="https://www.baypines.va.gov" target="_blank">https://www.baypines.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Beckley VA Medical Center</td>
+               <td>Beckley</td>
+               <td>WV</td>
+               <td>2</td>
+               <td><a href="https://www.beckley.va.gov" target="_blank">https://www.beckley.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Bedford VA Medical Center</td>
+               <td>Bedford</td>
+               <td>MA</td>
+               <td>5</td>
+               <td><a href="https://www.bedford.va.gov" target="_blank">https://www.bedford.va.gov</a><br>
+               <a href="https://mahealthconnector.org" target="_blank">https://mahealthconnector.org</a></td>
+           </tr>
+           <tr>
+               <td>George H. O'Brien, Jr. VA Medical Center</td>
+               <td>Big Spring</td>
+               <td>TX</td>
+               <td>1</td>
+               <td><a href="https://www.bigspring.va.gov" target="_blank">https://www.bigspring.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Birmingham VA Medical Center</td>
+               <td>Birmingham</td>
+               <td>AL</td>
+               <td>4</td>
+               <td><a href="https://www.birmingham.va.gov" target="_blank">https://www.birmingham.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Boise VA Medical Center</td>
+               <td>Boise</td>
+               <td>ID</td>
+               <td>3</td>
+               <td><a href="https://www.boise.va.gov" target="_blank">https://www.boise.va.gov</a><br>
+               <a href="https://yourhealthidaho.org" target="_blank">https://yourhealthidaho.org</a></td>
+           </tr>
+           <tr>
+               <td>VA Boston Healthcare System - Brockton</td>
+               <td>Brockton</td>
+               <td>MA</td>
+               <td>4</td>
+               <td><a href="https://www.boston.va.gov" target="_blank">https://www.boston.va.gov</a><br>
+               <a href="https://mahealthconnector.org" target="_blank">https://mahealthconnector.org</a></td>
+           </tr>
+           <tr>
+               <td>VA Boston Healthcare System - Jamaica Plain</td>
+               <td>Jamaica Plain</td>
+               <td>MA</td>
+               <td>4</td>
+               <td><a href="https://www.boston.va.gov" target="_blank">https://www.boston.va.gov</a><br>
+               <a href="https://mahealthconnector.org" target="_blank">https://mahealthconnector.org</a></td>
+           </tr>
+           <tr>
+               <td>VA Boston Healthcare System - West Roxbury</td>
+               <td>West Roxbury</td>
+               <td>MA</td>
+               <td>4</td>
+               <td><a href="https://www.boston.va.gov" target="_blank">https://www.boston.va.gov</a><br>
+               <a href="https://mahealthconnector.org" target="_blank">https://mahealthconnector.org</a></td>
+           </tr>
+           <tr>
+               <td>James J. Peters VA Medical Center</td>
+               <td>Bronx</td>
+               <td>NY</td>
+               <td>4</td>
+               <td><a href="https://www.bronx.va.gov" target="_blank">https://www.bronx.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA New York Harbor Healthcare System - Brooklyn</td>
+               <td>Brooklyn</td>
+               <td>NY</td>
+               <td>3</td>
+               <td><a href="https://www.nyharbor.va.gov" target="_blank">https://www.nyharbor.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>Buffalo VA Medical Center</td>
+               <td>Buffalo</td>
+               <td>NY</td>
+               <td>4</td>
+               <td><a href="https://www.buffalo.va.gov" target="_blank">https://www.buffalo.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>Butler VA Medical Center</td>
+               <td>Butler</td>
+               <td>PA</td>
+               <td>5</td>
+               <td><a href="https://www.butler.va.gov" target="_blank">https://www.butler.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Canandaigua VA Medical Center</td>
+               <td>Canandaigua</td>
+               <td>NY</td>
+               <td>4</td>
+               <td><a href="https://www.canandaigua.va.gov" target="_blank">https://www.canandaigua.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Central Iowa Healthcare System</td>
+               <td>Des Moines</td>
+               <td>IA</td>
+               <td>4</td>
+               <td><a href="https://www.centraliowa.va.gov/" target="_blank">https://www.centraliowa.va.gov/</a></td>
+           </tr>
+           <tr>
+                <td>Asheville VA Medical Center</td>
+                <td>Asheville</td>
+                <td>NC</td>
+                <td>5</td>
+                <td><a href="https://www.asheville.va.gov" target="_blank">https://www.asheville.va.gov</a></td>
+            </tr>
+            <tr>
+                <td>VA Connecticut Healthcare System - Newington Campus</td>
+                <td>Newington</td>
+                <td>CT</td>
+                <td>5</td>
+                <td><a href="https://www.connecticut.va.gov/" target="_blank">https://www.connecticut.va.gov/</a><br>
+                <a href="https://accesshealthct.com">https://accesshealthct.com</a><br></td>            
+            </tr>
+           <tr>
+               <td>Ralph H. Johnson VA Medical Center</td>
+               <td>Charleston</td>
+               <td>SC</td>
+               <td>4</td>
+               <td><a href="https://www.charleston.va.gov" target="_blank">https://www.charleston.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Cheyenne VA Medical Center</td>
+               <td>Cheyenne</td>
+               <td>WY</td>
+               <td>2</td>
+               <td><a href="https://www.cheyenne.va.gov" target="_blank">https://www.cheyenne.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Jesse Brown VA Medical Center</td>
+               <td>Chicago</td>
+               <td>IL</td>
+               <td>3</td>
+               <td><a href="https://www.chicago.va.gov" target="_blank">https://www.chicago.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Chillicothe VA Medical Center</td>
+               <td>Chillicothe</td>
+               <td>OH</td>
+               <td>4</td>
+               <td><a href="https://www.chillicothe.va.gov" target="_blank">https://www.chillicothe.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Cincinnati VA Medical Center</td>
+               <td>Cincinnati</td>
+               <td>OH</td>
+               <td>5</td>
+               <td><a href="https://www.cincinnati.va.gov" target="_blank">https://www.cincinnati.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Louis Stokes Cleveland VA Medical Center</td>
+               <td>Cleveland</td>
+               <td>OH</td>
+               <td>5</td>
+               <td><a href="http://www.cleveland.va.gov" target="_blank">https://www.cleveland.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Coatesville VA Medical Center</td>
+               <td>Coatesville</td>
+               <td>PA</td>
+               <td>5</td>
+               <td><a href="https://www.coatsville.va.gov" target="_blank">https://www.coatsville.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Truman VA Medical Center</td>
+               <td>Columbia</td>
+               <td>MO</td>
+               <td>3</td>
+               <td><a href="https://www.columbiamo.va.gov" target="_blank">https://www.columbiamo.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Columbia VA Healthcare System</td>
+               <td>Columbia</td>
+               <td>SC</td>
+               <td>2</td>
+               <td><a href="https://www.columbiasc.va.gov" target="_blank">https://www.columbiasc.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Chalmers P. Wylie Ambulatory Care Center</td>
+               <td>Columbus</td>
+               <td>OH</td>
+               <td>4</td>
+               <td><a href="https://www.columbus.va.gov" target="_blank">https://www.columbus.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Dallas VA Medical Center</td>
+               <td>Dallas</td>
+               <td>TX</td>
+               <td>2</td>
+               <td><a href="https://www.northtexas.va.gov" target="_blank">https://www.northtexas.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Illiana Healthcare System</td>
+               <td>Danville</td>
+               <td>IL</td>
+               <td>3</td>
+               <td><a href="https://www.danville.va.gov" target="_blank">https://www.danville.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Dayton VA Medical Center</td>
+               <td>Dayton</td>
+               <td>OH</td>
+               <td>3</td>
+               <td><a href="https://www.dayton.va.gov" target="_blank">https://www.dayton.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Eastern Colorado Healthcare System (Denver)</td>
+               <td>Aurora</td>
+               <td>CO</td>
+               <td>2</td>
+               <td><a href=""https://www.denver.va.gov target="_blank">https://www.denver.va.gov</a><br>
+               <a href="https://www.connectforhealthco.com" target="_blank">https://www.connectforhealthco.com</a></td>
+           </tr>
+           <tr>
+               <td>John D. Dingell VA Medical Center</td>
+               <td>Detroit</td>
+               <td>MI</td>
+               <td>3</td>
+               <td><a href="https://www.detroit.va.gov" target="_blank">https://www.detroit.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Carl Vinson VA Medical Center</td>
+               <td>Dublin</td>
+               <td>GA</td>
+               <td>3</td>
+               <td><a href="https://www.dublin.va.gov" target="_blank">https://www.dublin.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Durham VA Medical Center</td>
+               <td>Durham</td>
+               <td>NC</td>
+               <td>3</td>
+               <td><a href="https://www.durham.va.gov" target="_blank">https://www.durham.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA New Jersey Healthcare System - East Orange</td>
+               <td>East Orange</td>
+               <td>NJ</td>
+               <td>2</td>
+               <td><a href="https://www.newjersey.va.gov" target="_blank">https://www.newjersey.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Eugene H. Towbin Healthcare Center</td>
+               <td>North Little Rock</td>
+               <td>AR</td>
+               <td>3</td>
+               <td><a href="https://www.littlerock.va.gov" target="_blank">https://www.littlerock.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Northern Indiana Healthcare System - Marion</td>
+               <td>Marion</td>
+               <td>IN</td>
+               <td>2</td>
+               <td><a href="https://www.northernindiana.va.gov" target="_blank">https://www.northernindiana.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>El Paso VA Medical Center</td>
+               <td>El Paso</td>
+               <td>TX</td>
+               <td>1</td>
+               <td><a href="https://www.elpaso.va.gov" target="_blank">https://www.elpaso.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Erie VA Medical Center</td>
+               <td>Erie</td>
+               <td>PA</td>
+               <td>5</td>
+               <td><a href="https://www.erie.va.gov" target="_blank">https://www.erie.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Fargo VA Healthcare System</td>
+               <td>Fargo</td>
+               <td>ND</td>
+               <td>4</td>
+               <td><a href="https://www.fargo.va.gov" target="_blank">https://www.fargo.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Veterans Healthcare System of the Ozarks</td>
+               <td>Fayetteville</td>
+               <td>AR</td>
+               <td>3</td>
+               <td><a href="https://www.fayettevillear.va.gov" target="_blank">https://www.fayettevillear.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Fayetteville VA Medical Center</td>
+               <td>Fayetteville</td>
+               <td>NC</td>
+               <td>2</td>
+               <td><a href="https://www.fayettevillenc.va.gov" target="_blank">https://www.fayettevillenc.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Black Hills Healthcare System - Fort Meade</td>
+               <td>Fort Meade</td>
+               <td>SD</td>
+               <td>3</td>
+               <td><a href="https://www.blackhills.va.gov" target="_blank">https://www.blackhills.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Northern Indiana Healthcare System - Fort Wayne</td>
+               <td>Fort Wayne</td>
+               <td>IN</td>
+               <td>2</td>
+               <td><a href="https://www.northernindiana.va.gov" target="_blank">https://www.northernindiana.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Central California VA Healthcare System</td>
+               <td>Fresno</td>
+               <td>CA</td>
+               <td>2</td>
+               <td><a href="https://www.fresno.va.gov" target="_blank">https://www.fresno.va.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>Malcolm Randall VA Medical Center</td>
+               <td>Gainesville</td>
+               <td>FL</td>
+               <td>3</td>
+               <td><a href="https://www.northflorida.va.gov" target="_blank">https://www.northflorida.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Western Colorado Healthcare System</td>
+               <td>Grand Junction</td>
+               <td>CO</td>
+               <td>4</td>
+               <td><a href="https://www.grandjunction.va.gov" target="_blank">https://www.grandjunction.va.gov</a><br>
+               <a href="https://www.connectforhealthco.com" target="_blank">https://www.connectforhealthco.com</a></td>
+           </tr>
+           <tr>
+               <td>Gulf Coast Veterans Healthcare System</td>
+               <td>Biloxi</td>
+               <td>MS</td>
+               <td>2</td>
+               <td><a href="https://www.biloxi.va.gov" target="_blank">https://www.biloxi.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Hampton VA Medical Center</td>
+               <td>Hampton</td>
+               <td>VA</td>
+               <td>2</td>
+               <td><a href="https://www.hampton.va.gov" target="_blank">https://www.hampton.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Healthcare Center at Harlingen</td>
+               <td>Harlingen</td>
+               <td>TX</td>
+               <td>2</td>
+               <td><a href="https://www.texasvalley.va.gov" target="_blank">https://www.texasvalley.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Edward Hines, Jr. VA Hospital</td>
+               <td>Hines</td>
+               <td>IL</td>
+               <td>3</td>
+               <td><a href="https://www.hines.va.gov" target="_blank">https://www.hines.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Pacific Islands Healthcare System</td>
+               <td>Honolulu</td>
+               <td>HI</td>
+               <td>2</td>
+               <td><a href="https://www.hawaii.va.gov" target="_blank">https://www.hawaii.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Black Hills Healthcare System - Hot Springs</td>
+               <td>Hot Springs</td>
+               <td>SD</td>
+               <td>5</td>
+               <td><a href="https://www.blackhills.va.gov" target="_blank">https://www.blackhills.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Michael E. DeBakey VA Medical Center</td>
+               <td>Houston</td>
+               <td>TX</td>
+               <td>3</td>
+               <td><a href="https://www.houston.va.gov" target="_blank">https://www.houston.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Hudson Valley Healthcare System</td>
+               <td>Montrose</td>
+               <td>NY</td>
+               <td>3</td>
+               <td><a href="https://www.hudsonvalley.va.gov" target="_blank">https://www.hudsonvalley.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>Hershel "Woody" Williams VA Medical Center</td>
+               <td>Huntington</td>
+               <td>WV</td>
+               <td>4</td>
+               <td><a href="http://www.huntington.va.gov" target="_blank">https://www.huntington.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Richard L. Roudebush VA Medical Center</td>
+               <td>Indianapolis</td>
+               <td>IN</td>
+               <td>3</td>
+               <td><a href="https://www.indianapolis.gov" target="_blank">https://www.indianopolis.gov</a></td>
+           </tr>
+           <tr>
+               <td>Iowa City VA Healthcare System</td>
+               <td>Iowa City</td>
+               <td>IA</td>
+               <td>3</td>
+               <td><a href="https://www.iowacity.va.gov" target="_blank">https://www.iowacity.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Oscar G. Johnson VA Medical Center</td>
+               <td>Iron Mountain</td>
+               <td>MI</td>
+               <td>5</td>
+               <td><a href="https://www.ironmountain.va.gov" target="_blank">https://www.ironmountain.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>G.V. (Sonny) Montgomery VA Medical Center</td>
+               <td>Jackson</td>
+               <td>MS</td>
+               <td>2</td>
+               <td><a href="https://www.jackson.va.gov" target="_blank">https://www.jackson.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Kansas City VA Medical Center</td>
+               <td>Kansas City</td>
+               <td>MO</td>
+               <td>2</td>
+               <td><a href="https://www.kansascity.va.gov" target="_blank">https://www.kansascity.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Lake City VA Medical Center</td>
+               <td>Lake City</td>
+               <td>FL</td>
+               <td>2</td>
+               <td><a href="https://www.northflorida.gov" target="_blank">https://www.northflorida.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Southern Nevada Healthcare System</td>
+               <td>North Las Vegas</td>
+               <td>NV</td>
+               <td>2</td>
+               <td><a href="https://www.lasvegas.va.gov" target="_blank">https://www.lasvegas.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Dwight D. Eisenhower VA Medical Center</td>
+               <td>Leavenworth</td>
+               <td>KS</td>
+               <td>4</td>
+               <td><a href="https://www.leavenworth.va.gov" target="_blank">https://www.leavenworth.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Lebanon VA Medical Center</td>
+               <td>Lebanon</td>
+               <td>PA</td>
+               <td>5</td>
+               <td><a href="https://www.lebanon.va.gov" target="_blank">https://www.lebanon.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Lexington VA Medical Center - Cooper</td>
+               <td>Lexington</td>
+               <td>KY</td>
+               <td>4</td>
+               <td><a href="https://www.lexington.va.gov" target="_blank">https://www.lexington.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Lexington VA Medical Center - Leestown</td>
+               <td>Lexington</td>
+               <td>KY</td>
+               <td>4</td>
+               <td><a href="https://www.lexington.va.gov" target="_blank">https://www.lexington.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>John L. McClellan Memorial Veterans Hospital</td>
+               <td>Little Rock</td>
+               <td>AR</td>
+               <td>3</td>
+               <td><a href="https://www.littlerock.va.gov" target="_blank">https://www.littlerock.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Loma Linda Healthcare System</td>
+               <td>Loma Linda</td>
+               <td>CA</td>
+               <td>1</td>
+               <td><a href="https://www.lomalinda.va.gov" target="_blank">https://www.lomalinda.va.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>VA Long Beach Healthcare System</td>
+               <td>Long Beach</td>
+               <td>CA</td>
+               <td>2</td>
+               <td><a href="https://www.longbeach.va.gov" target="_blank">https://www.longbeach.va.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>Colmery-O'Neil VA Medical Center</td>
+               <td>Topeka</td>
+               <td>KS</td>
+               <td>4</td>
+               <td><a href="https://www.topeka.va.gov" target="_blank">https://www.topeka.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>West Los Angeles Medical Center</td>
+               <td>Los Angeles</td>
+               <td>CA</td>
+               <td>2</td>
+               <td><a href="https://www.losangeles.ca.gov" target="_blank">https://www.losangeles.ca.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>Sepulveda Ambulatory Care Center</td>
+               <td>Los Angeles</td>
+               <td>CA</td>
+               <td>2</td>
+               <td><a href="https://www.losangeles.ca.gov" target="_blank">https://www.losangeles.ca.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>Los Angeles Ambulatory Care Center</td>
+               <td>Los Angeles</td>
+               <td>CA</td>
+               <td>2</td>
+               <td><a href="https://www.losangeles.ca.gov" target="_blank">https://www.losangeles.ca.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>Northern Arizona VA Healthcare System</td>
+               <td>Prescott</td>
+               <td>AZ</td>
+               <td>2</td>
+               <td><a href="https://www.prescott.va.gov" target="_blank">https://www.prescott.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Southern Arizona VA Healthcare System</td>
+               <td>Tucson</td>
+               <td>AZ</td>
+               <td>1</td>
+               <td><a href="https://www.tucson.va.gov" target="_blank">https://www.tucson.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA San Diego Healthcare System</td>
+               <td>San Diego</td>
+               <td>CA</td>
+               <td>3</td>
+               <td><a href="https://www.sandiego.va.gov" target="_blank">https://www.sandiego.va.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>Robley Rex VA Medical Center</td>
+               <td>Louisville</td>
+               <td>KY</td>
+               <td>3</td>
+               <td><a href="https://www.louisville.va.gov" target="_blank">https://www.louisville.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>William S. Middleton Memorial Veterans Hospital</td>
+               <td>Madison</td>
+               <td>WI</td>
+               <td>3</td>
+               <td><a href="https://www.madison.va.gov" target="_blank">https://www.madison.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Manchester VA Medical Center</td>
+               <td>Manchester</td>
+               <td>NH</td>
+               <td>5</td>
+               <td><a href="https://www.manchester.va.gov" target="_blank">https://www.manchester.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Marion VA Medical Center</td>
+               <td>Marion</td>
+               <td>IL</td>
+               <td>2</td>
+               <td><a href="https://www.marion.va.gov" target="_blank">https://www.marion.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Martinsburg VA Medical Center</td>
+               <td>Martinsburg</td>
+               <td>WV</td>
+               <td>2</td>
+               <td><a href="https://www.martinsburg.va.gov" target="_blank">https://www.martinsburg.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Memphis VA Medical Center</td>
+               <td>Memphis</td>
+               <td>TN</td>
+               <td>1</td>
+               <td><a href="https://www.memphis.va.gov" target="_blank">https://www.memphis.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Miami VA Healthcare Center</td>
+               <td>Miami</td>
+               <td>FL</td>
+               <td>3</td>
+               <td><a href="https://www.miami.va.gov" target="_blank">https://www.miami.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Clement J. Zablocki Veterans Affairs Medical Center</td>
+               <td>Milwaukee</td>
+               <td>WI</td>
+               <td>3</td>
+               <td><a href="http://www.milwaukee.va.gov" target="_blank">https://www.milwaukee.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Minneapolis VA Medical Center</td>
+               <td>Minneapolis</td>
+               <td>MN</td>
+               <td>4</td>
+               <td><a href="https://www.minneapolis.va.gov" target="_blank">https://www.minneapolis.va.gov</a><br>
+               <a href="https://mn.gov/hix" target="_blank">https://mn.gov/hix</a></td>
+           </tr>
+           <tr>
+               <td>Fort Harrison VA Medical Center</td>
+               <td>Fort Harrison</td>
+               <td>MT</td>
+               <td>2</td>
+               <td><a href="https://www.montana.va.gov" target="_blank">https://www.montana.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Central Alabama Veterans Healthcare System - East</td>
+               <td>Tuskegee</td>
+               <td>AL</td>
+               <td>1</td>
+               <td><a href="https://www.centralalabama.va.gov" target="_blank">https://www.centralalabama.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Central Alabama Veterans Healthcare Sysetm - West</td>
+               <td>Montgomery</td>
+               <td>AL</td>
+               <td>1</td>
+               <td><a href="https://www.centralalabama.va.gov" target="_blank">https://www.centralalabama.gov</a></td>
+           </tr>
+           <tr>
+               <td>James H. Quillen VA Healthcare System (Mountain Home)</td>
+               <td>Johnson City</td>
+               <td>TN</td>
+               <td>4</td>
+               <td><a href="https://www.mountainhome.va.gov" target="_blank">https://www.mountainhome.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Alvin C. York VA Medical Center</td>
+               <td>Murfreesboro</td>
+               <td>TN</td>
+               <td>2</td>
+               <td><a href="https://www.tennesseevalley.va.gov" target="_blank">https://www.tennesseevalley.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Jack C. Montgomery VA Medical Center</td>
+               <td>Muskogee</td>
+               <td>OK</td>
+               <td>2</td>
+               <td><a href="https://www.muskogee.va.gov" target="_blank">https://www.muskogee.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Nashville VA Medical Center</td>
+               <td>Nashville</td>
+               <td>TN</td>
+               <td>2</td>
+               <td><a href="https://www.tennesseevalley.va.gov" target="_blank">https://www.tennesseevalley.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Southeast Louisiana Veterans Healthcare System</td>
+               <td>New Orleans</td>
+               <td>LA</td>
+               <td>3</td>
+               <td><a href="https://www.neworleans.va.gov" target="_blank">https://www.neworleans.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA New York Harbor Healthcare System - Manhattan</td>
+               <td>New York</td>
+               <td>NY</td>
+               <td>4</td>
+               <td><a href="https://www.nyharbor.va.gov" target="_blank">https://www.nyharbor.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Captain James A. Lovell Federal Healthcare Center</td>
+               <td>North Chicago</td>
+               <td>IL</td>
+               <td>4</td>
+               <td><a href="https://www.lovell.fhcc.va.gov" target="_blank">https://www.lovell.fhcc.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Northampton VA Medical Center</td>
+               <td>Leeds</td>
+               <td>MA</td>
+               <td>5</td>
+               <td><a href="https://www.centralwesternmass.va.gov" target="_blank">https://www.centralwesternmass.va.gov</a><br>
+               <a href="https://mahealthconnector.org" target="_blank">https://mahealthconnector.org</a></td>
+           </tr>
+           <tr>
+               <td>Northport VA Medical Center</td>
+               <td>Northport</td>
+               <td>NY</td>
+               <td>3</td>
+               <td><a href="https://www.northport.va.gov" target="_blank">https://www.northport.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>Oklahoma City VA Healthcare System</td>
+               <td>Oklahoma City</td>
+               <td>OK</td>
+               <td>2</td>
+               <td><a href="https://www.oklahoma.va.gov" target="_blank">https://www.oklahoma.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Omaha VA Medical Center</td>
+               <td>Omaha</td>
+               <td>NE</td>
+               <td>4</td>
+               <td><a href="https://www.nebraska.va.gov" target="_blank">https://www.nebraska.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Orlando VA Medical Center</td>
+               <td>Orlando</td>
+               <td>FL</td>
+               <td>3</td>
+               <td><a href="https://www.orlando.va.gov" target="_blank">https://www.orlando.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Palo Alto Healthcare System - Palo Alto</td>
+               <td>Palo Alto</td>
+               <td>CA</td>
+               <td>2</td>
+               <td><a href="https://www.paloalto.va.gov" target="_blank">https://www.paloalto.va.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>VA Palo Alto Healthcare System - Menlo Park</td>
+               <td>Menlo Park</td>
+               <td>CA</td>
+               <td>2</td>
+               <td><a href="https://www.paloalto.va.gov" target="_blank">https://www.paloalto.va.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>VA Palo Alto Healthcare System - Livermore</td>
+               <td>Livermore</td>
+               <td>CA</td>
+               <td>2</td>
+               <td><a href="https://www.paloalto.va.gov" target="_blank">https://www.paloalto.va.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>Perry Point VA Medical Center</td>
+               <td>Perry Point</td>
+               <td>MD</td>
+               <td>3</td>
+               <td><a href="https://www.maryland.va.gov" target="_blank">https://www.maryland.va.gov</a><br>
+               <a href="https://marylandhealthconnection.gov" target="_blank">https://marylandhealthconnection.gov</a></td>
+           </tr>
+           <tr>
+               <td>Philadelphia VA Medical Center</td>
+               <td>Philadelphia</td>
+               <td>PA</td>
+               <td>3</td>
+               <td><a href="https://www.philadelphia.va.gov" target="_blank">https://www.philadelphia.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Phoenix VA Healthcare System</td>
+               <td>Phoenix</td>
+               <td>AZ</td>
+               <td>1</td>
+               <td><a href="https://www.phoenix.va.gov" target="_blank">https://www.phoenix.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Pittsburgh Healthcare System - H. J. Heinz Campus</td>
+               <td>Pittsburgh</td>
+               <td>PA</td>
+               <td>4</td>
+               <td><a href="https://www.pittsburgh.va.gov" target="_blank">https://www.pittsburgh.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Pittsburgh Healthcare System - University Center Campus</td>
+               <td>Pittsburgh</td>
+               <td>PA</td>
+               <td>4</td>
+               <td><a href="https://www.pittsburgh.va.gov" target="_blank">https://www.pittsburgh.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Providence VA Medical Center</td>
+               <td>Providence</td>
+               <td>RI</td>
+               <td>3</td>
+               <td><a href="https://www.providence.va.gov" target="_blank">https://www.providence.va.gov</a><br>
+               <a href="https://healthsourceri.com" target="_blank">https://healthsourceri.com</a></td>
+           </tr>
+           <tr>
+               <td>White River Junction VA Medical Center</td>
+               <td>White River Junction</td>
+               <td>VT</td>
+               <td>3</td>
+               <td><a href="https://www.whiteriver.va.gov" target="_blank">https://www.whiteriver.va.gov</a><br>
+               <a href="https://healthconnect.vermont.gov" target="_blank">https://healthconnect.vermont.gov</a></td>
+           </tr>
+           <tr>
+               <td>Wilkes-Barre VA Medical Center</td>
+               <td>Wilkes-Barre</td>
+               <td>PA</td>
+               <td>3</td>
+               <td><a href="https://www.wilkes-barre.va.gov" target="_blank">https://www.wilkes-barre.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Wilmington VA Medical Center</td>
+               <td>Wilmington</td>
+               <td>DE</td>
+               <td>3</td>
+               <td><a href="https://www.wilmington.va.gov" target="_blank">https://www.wilmington.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Caribbean Healthcare System</td>
+               <td>San Juan</td>
+               <td>PR</td>
+               <td>2</td>
+               <td><a href="https://www.caribbean.va.gov" target="_blank">https://www.caribbean.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>West Palm Beach VA Medical Center</td>
+               <td>West Palm Beach</td>
+               <td>FL</td>
+               <td>3</td>
+               <td><a href="https://www.westpalmbeach.va.gov" target="_blank">https://www.westpalmbeach.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>James A. Haley Veterans Hospital</td>
+               <td>Tampa</td>
+               <td>FL</td>
+               <td>4</td>
+               <td><a href="https://www.tampa.va.gov" target="_blank">https://www.tampa.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Sacramento VA Medical Center - Sacramento</td>
+               <td>Sacramento</td>
+               <td>CA</td>
+               <td>3</td>
+               <td><a href="https://www.northerncalifornia.va.gov" target="_blank">https://www.northerncalifornia.va.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>Sacramento VA Medical Center - Valley</td>
+               <td>Mather</td>
+               <td>CA</td>
+               <td>3</td>
+               <td><a href="https://www.northerncalifornia.va.gov" target="_blank">https://www.northerncalifornia.va.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>VA Sierra Nevada Healthcare System</td>
+               <td>Reno</td>
+               <td>NV</td>
+               <td>3</td>
+               <td><a href="https://www.reno.va.gov" target="_blank">https://www.reno.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>San Francisco VA Healthcare System</td>
+               <td>San Francisco</td>
+               <td>CA</td>
+               <td>3</td>
+               <td><a href="https://www.sanfrancisco.va.gov" target="_blank">https://www.sanfrancisco.va.gov</a><br>
+               <a href="https://www.coveredca.com" target="_blank">https://www.coveredca.com</a></td>
+           </tr>
+           <tr>
+               <td>George E. Wahlen Dept. of Veterans Affairs Medical Center</td>
+               <td>Salt Lake City</td>
+               <td>UT</td>
+               <td>3</td>
+               <td><a href="https://www.saltlakecity.va.gov" target="_blank">https://www.saltlakecity.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Sheridan VA Medical Center</td>
+               <td>Sheridan</td>
+               <td>WY</td>
+               <td>4</td>
+               <td><a href="https://www.sheridan.va.gov" target="_blank">https://www.sheridan.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Tuscaloosa VA Medical Center</td>
+               <td>Tuscaloosa</td>
+               <td>AL</td>
+               <td>3</td>
+               <td><a href="https://www.tuscaloosa.va.gov" target="_blank">https://www.tuscaloosa.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Overton Brooks VA Medical Center</td>
+               <td>Shreveport</td>
+               <td>LA</td>
+               <td>3</td>
+               <td><a href="https://www.shreveport.va.gov" target="_blank">https://www.shreveport.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Hudson Valley Healthcare System - Castle Point</td>
+               <td>Wappingers Falls</td>
+               <td>NY</td>
+               <td>3</td>
+               <td><a href="https://www.hudsonvalley.va.gov" target="_blank">https://www.hudsonvalley.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA New Jersey Healthcare System - Lyons</td>
+               <td>Lyons</td>
+               <td>NJ</td>
+               <td>2</td>
+               <td><a href="https://www.newjersey.va.gov" target="_blank">https://www.newjersey.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Syracuse VA Medical Center</td>
+               <td>Syracuse</td>
+               <td>NY</td>
+               <td>3</td>
+               <td><a href="https://www.syracuse.va.gov" target="_blank">https://www.syracuse.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Western New York Healthcare System - Batavia</td>
+               <td>Batavia</td>
+               <td>NY</td>
+               <td>4</td>
+               <td><a href="https://www.buffalo.va.gov" target="_blank">https://www.buffalo.va.gov</a><br>
+               <a href="https://nystateofhealth.ny.gov" target="_blank">https://nystateofhealth.ny.gov</a></td>
+           </tr>
+           <tr>
+               <td>Sioux Falls VA Healthcare System</td>
+               <td>Sioux Falls</td>
+               <td>SD</td>
+               <td>4</td>
+               <td><a href="https://www.siouxfalls.va.gov" target="_blank">https://www.siouxfalls.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Mann-Grandstaff VA Medical Center</td>
+               <td>Spokane</td>
+               <td>WA</td>
+               <td>3</td>
+               <td><a href="https://www.spokane.va.gov" target="_blank">https://www.spokane.va.gov</a><br>
+               <a href="https://wahealthplanfinder.org" target="_blank">https://wahealthplanfinder.org</a></td>
+           </tr>
+           <tr>
+               <td>St. Cloud VA Healthcare System</td>
+               <td>St. Cloud</td>
+               <td>MN</td>
+               <td>5</td>
+               <td><a href="https://www.stcloud.va.gov" target="_blank">https://www.stcloud.va.gov</a><br>
+               <a href="https://mn.gov/hix" target="_blank">https://mn.gov/hix</a></td>
+           </tr>
+           <tr>
+               <td>VA St. Louis Healthcare System - John Cochran Division</td>
+               <td>St. Louis</td>
+               <td>MO</td>
+               <td>3</td>
+               <td><a href="https://www.stlouis.va.gov" target="_blank">https://www.stlouis.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Olin E. Teague Veterans Medical Center</td>
+               <td>Temple</td>
+               <td>TX</td>
+               <td>3</td>
+               <td><a href="https://www.centraltexas.va.gov" target="_blank">https://www.centraltexas.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Maine VA Medical Center</td>
+               <td>Augusta</td>
+               <td>ME</td>
+               <td>Unrated</td>
+               <td><a href="https://www.maine.va.gov" target="_blank">https://www.maine.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Tomah VA Medical Center</td>
+               <td>Tomah</td>
+               <td>WI</td>
+               <td>3</td>
+               <td><a href="https://www.tomah.va.gov" target="_blank">https://www.tomah.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Jonathan M. Wainwright Memorial VA Medical Center</td>
+               <td>Walla Walla</td>
+               <td>WA</td>
+               <td>2</td>
+               <td><a href="https://www.wallawalla.va.gov" target="_blank">https://www.wallawalla.va.gov</a><br>
+               <a href="https://wahealthplanfinder.org" target="_blank">https://wahealthplanfinder.org</a></td>
+           </tr>
+           <tr>
+               <td>Washington DC VA Medical Center</td>
+               <td>Washington</td>
+               <td>DC</td>
+               <td>1</td>
+               <td><a href="https://www.washingtondc.va.gov" target="_blank">https://www.washingtondc.va.gov</a><br>
+                   <a href="https://dchealthlink.com" target="_blank">https://dchealthlink.com</a></td>
+            </tr>
+           <tr>
+               <td>White City VA Rehabilitation Center &amp; Clinics</td>
+               <td>White City</td>
+               <td>OR</td>
+               <td>3</td>
+               <td><a href="https://www.southernoregon.va.gov" target="_blank">https://www.southernoregon.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Robert J. Dole VA Medical Center</td>
+               <td>Wichita</td>
+               <td>KS</td>
+               <td>4</td>
+               <td><a href="https://www.wichita.va.gov" target="_blank">https://www.wichita.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Grand Island VA Medical Center</td>
+               <td>Grand Island</td>
+               <td>NE</td>
+               <td>4</td>
+               <td><a href="https://www.nebraska.va.gov" target="_blank">https://www.nebraska.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Portland VA Medical Center - Portland</td>
+               <td>Portland</td>
+               <td>OR</td>
+               <td>3</td>
+               <td><a href="https://www.portland.va.gov" target="_blank">https://www.portland.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Portland VA Medical Center - Vancouver</td>
+               <td>Vancouver</td>
+               <td>WA</td>
+               <td>3</td>
+               <td><a href="https://www.portland.va.gov" target="_blank">https://www.portland.va.gov</a><br>
+               <a href="https://wahealthplanfinder.org" target="_blank">https://wahealthplanfinder.org</a></td>
+           </tr>
+           <tr>
+               <td>VA Puget Sound Healthcare System - Seattle</td>
+               <td>Seattle</td>
+               <td>WA</td>
+               <td>2</td>
+               <td><a href="https://www.pugetsound.va.gov" target="_blank">https://www.pugetsound.va.gov</a><br>
+               <a href="https://wahealthplanfinder.org" target="_blank">https://wahealthplanfinder.org</a></td>
+           </tr>
+           <tr>
+               <td>VA Puget Sound Healthcare System - American Lake</td>
+               <td>Tacoma</td>
+               <td>WA</td>
+               <td>2</td>
+               <td><a href="https://www.pugetsound.va.gov" target="_blank">https://www.pugetsound.va.gov</a><br>
+               <a href="https://wahealthplanfinder.org" target="_blank">https://wahealthplanfinder.org</a></td>
+           </tr>
+           <tr>
+               <td>Roseburg VA Healthcare System</td>
+               <td>Roseburg</td>
+               <td>OR</td>
+               <td>2</td>
+               <td><a href="https://www.roseburg.va.gov" target="_blank">https://www.roseburg.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>John J. Pershing VA Medical Center</td>
+               <td>Poplar Bluff</td>
+               <td>MO</td>
+               <td>3</td>
+               <td><a href="https://www.poplarbluff.va.gov" target="_blank">https://www.poplarbluff.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Audie L. Murphy VA Hospital</td>
+               <td>San Antonio</td>
+               <td>TX</td>
+               <td>3</td>
+               <td><a href="https://www.southtexas.va.gov" target="_blank">https://www.southtexas.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Kerrville VA Hospital</td>
+               <td>Kerrville</td>
+               <td>TX</td>
+               <td>3</td>
+               <td><a href="https://www.southtexas.va.gov" target="_blank">https://www.southtexas.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Doris Miller Dept. of Veterans Affairs Medical Center</td>
+               <td>Waco</td>
+               <td>TX</td>
+               <td>3</td>
+               <td><a href="https://www.centraltexas.va.gov" target="_blank">https://www.centraltexas.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Sam Rayburn Memorial Veterans Center</td>
+               <td>Bonham</td>
+               <td>TX</td>
+               <td>2</td>
+               <td><a href="https://www.northtexas.va.gov" target="_blank">https://www.northtexas.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Louis A. Johnson VA Medical Center</td>
+               <td>Clarksburg</td>
+               <td>WV</td>
+               <td>4</td>
+               <td><a href="https://www.clarksburg.va.gov" target="_blank">https://www.clarksburg.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>VA Connecticut Healthcare System - West Haven</td>
+               <td>West Haven</td>
+               <td>CT</td>
+               <td>5</td>
+               <td><a href="https://www.connecticut.va.gov" target="_blank">https://www.connecticut.va.gov</a><br>
+               <a href="https://accesshealthct.com" target="_blank">https://www.accesshealthct.com</a></td>
+           </tr>
+           <tr>
+               <td>W.G. (Bill) Hefner VA Medical Center</td>
+               <td>Salisbury</td>
+               <td>NC</td>
+               <td>3</td>
+               <td><a href="https://www.salisbury.va.gov" target="_blank">https://www.salisbury.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Salem VA Medical Center</td>
+               <td>Salem</td>
+               <td>VA</td>
+               <td>5</td>
+               <td><a href="https://www.salem.va.gov" target="_blank">https://www.salem.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Hunter Holmes McGuire VA Medical Center</td>
+               <td>Richmond</td>
+               <td>VA</td>
+               <td>4</td>
+               <td><a href="https://www.richmond.va.gov" target="_blank">https://www.richmond.va.gov</a></td>
+           </tr>
+           <tr>
+               <td>Aleda E. Lutz VA Medical Center</td>
+               <td>Saginaw</td>
+               <td>MI</td>
+               <td>5</td>
+               <td><a href="https://www.saginaw.va.gov" target="_blank">https://www.saginaw.va.gov</a></td>
+           </tr>
+        </tbody>
+    </table>
+    
+    </div>
+    <br><br>
+    <footer class="text-center"><p>Site by <a href="mailto:rrgash@protonmail.com">Rosalind Gash</a><br>View my <a href="https://www.linkedin.com/in/rosalindgash">LinkedIn profile</a><br>Rosalind is a proud veteran of the United States Navy.</p></footer>
+    
+    <script>
+function queryParams() {
+    return {
+        type: 'owner',
+        sort: 'updated',
+        direction: 'desc',
+        per_page: 50,
+        page: 1
+    };
+}
+</script>
+</body>
+</html>
